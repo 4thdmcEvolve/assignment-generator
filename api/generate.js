@@ -425,7 +425,7 @@ Write the complete assignment now. Do not stop early or leave any section as a p
 
     const genResult = await callAnthropic({
       model: 'claude-haiku-4-5-20251001',
-      maxTokens: 5000,
+      maxTokens: 7500,
       prompt: genPrompt,
     });
 
