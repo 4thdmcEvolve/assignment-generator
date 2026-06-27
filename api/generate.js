@@ -409,6 +409,8 @@ CRITICAL RULES:
 - ${usageRule}
 - Be specific to the content provided — not a generic template that could apply to any topic.
 - Be concise but complete. Every section must be fully written. No placeholders.
+- If this assignment includes a TEACHER ANSWER KEY, the answer key MUST be fully written. Never cut off mid-answer-key. Complete every single answer before ending your response.
+- Do not stop early or leave any section incomplete under any circumstances.
 
 CONTENT / LESSON DETAILS:
 ${contentForGen}
@@ -423,7 +425,7 @@ Write the complete assignment now. Do not stop early or leave any section as a p
 
     const genResult = await callAnthropic({
       model: 'claude-haiku-4-5-20251001',
-      maxTokens: 2000,
+      maxTokens: 3500,
       prompt: genPrompt,
     });
 
